@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.audiovideo.CustomViewActivity"
+    android:orientation="vertical">
+    <com.example.audiovideo.CustomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="人生若如初相见"
+        app:textColor="#00ed89"
+        app:textSize="16sp"
+        app:background="@drawable/sanshao"
+        app:imageScale="center"/>
+    <com.example.audiovideo.CustomView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="秦桑低绿枝"
+        app:textColor="#ae3420"
+        app:textSize="16sp"
+        app:background="@drawable/qinsang"
+        app:imageScale="center"/>
+
+</LinearLayout>
